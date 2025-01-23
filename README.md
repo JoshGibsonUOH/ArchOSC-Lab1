@@ -90,7 +90,7 @@ Enter the following information to create your VM.
 <div class="container mt-5">
     <div class="alert alert-danger" role="alert">
         <strong>Important!</strong>
-        <p>- And Remember this too!(Make sure your password is at least 12 characters long, has capital letters, numbers and symbols, this will again keep your VM safe.) </p>
+        <p>And Remember this too!(Make sure your password is at least 12 characters long, has capital letters, numbers and symbols, this will again keep your VM safe.) </p>
     </div>
 </div>
 
@@ -148,7 +148,7 @@ Once you have entered these details a new window will open and you should be red
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
 </svg> <strong>Tip!</strong>
-        <p>>You should add a screenshot of your newly opened VM to your portfolio, you should also include a couple of paragraphs on what you had to do to reach this point.</p>
+        <p>You should add a screenshot of your newly opened VM to your portfolio, you should also include a couple of paragraphs on what you had to do to reach this point.</p>
     </div>
 </div>
 
@@ -355,9 +355,9 @@ Then
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
         <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
-</svg> <strong><u>Important!</u></strong>
-    <p><strong>Task:</strong><p>
-        <p>> Research how to use, bold, italics and underline in HTML, and edit your HTML document to include all three.</p>
+</svg> <strong>Important!</strong>
+    <strong>Task:</strong>
+        <p>Research how to use, bold, italics and underline in HTML, and edit your HTML document to include all three.</p>
     </div>
 </div>
 
