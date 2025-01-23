@@ -1,6 +1,35 @@
 # Creating VMs in Azure 
 In the following lab you will create, and use, a Virtual Machine using Microsoft's Azure Platform. 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caution Alert</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <!-- Caution Alert -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Caution!</strong> Please proceed with caution as this action may cause unintended effects.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
 >[!TIP] Even though your assignment has not yet been released you should start preparing for it now to give yourself a chance at getting the highest marks possible. This lab has been designed in a way that anything marked with a **"TIP"** or **"Important"** tag will help you get more marks on your assignment, if you get in the habit of placing these suggested tasks in a Word document with clearly defined headings now it will make your assignment much easier (and possibly prevent you having to do this lab again!) If you are unsure how to screenshot, please ask! 
 
 ## Logging Into Azure And Setting Up A Virtual Machine 
