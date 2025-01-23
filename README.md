@@ -10,12 +10,11 @@ In the following lab you will create, and use, a Virtual Machine using Microsoft
 </head>
 <body>
 <div class="container mt-5">
-    <!-- Caution Alert -->
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        Even though your assignment has not yet been released you should start preparing for it now to give yourself a chance at getting the highest marks possible. This lab has been designed in a way that anything marked with a **"TIP"** or **"Important"** tag will help you get more marks on your assignment, if you get in the habit of placing these suggested tasks in a Word document with clearly defined headings now it will make your assignment much easier (and possibly prevent you having to do this lab again!) If you are unsure how to screenshot, please ask! 
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-        </button>
+    <!-- Alert -->
+    <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+    </div>
+</div>
     </div>
 </div>
 
