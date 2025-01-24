@@ -129,9 +129,17 @@ Open the program shown above, and you should see a screen like the one below
 
 ![Image](Pictures/006.png) 
 
-Return to your opened Resource Window and take note of your "Public IP Address" You should then return to your "Remote Desktop Connection" window, enter it there and press connect. 
+Return to your opened Resource Window and take note of your "Public IP Address" You should then return to your "Remote Desktop Connection" window, enter it there 
 
-You will be asked to enter your Username and Password (The ones you created earlier when you made your VM), do this and press continue to get into your VM - you may get a window that asks for if you trust the certificate, you are fine to click yes here as you trust the machine you are connecting to - you created it! 
+You may also have to set your username here, as RDP will presume you want to use the one you logged in with - you dont!
+
+To fix this press the "Show Options" button when entering the IP address, which will allow you to specify a username, remove the University one shown in the bar and add the one you created earlier. 
+
+Then press connect to access your VM.
+
+You will be asked to confirm your Username and enter your Password (The ones you created earlier when you made your VM), if you didn't enter your username manually earlier you can do it here by pressing "more choices" and then "use a different account" and entering the login. 
+
+Do this and press continue to get into your VM - you may get a window that asks for if you trust the certificate, you are fine to click yes here as you trust the machine you are connecting to - you created it! 
 
 Once you have entered these details a new window will open and you should be redirected to a Windows Desktop, If this is the case you have successfully connected to your VM! 
 
@@ -229,21 +237,19 @@ You should see the default Microsoft IIS Screen, which should look like the scre
 
 ## Adding Your Own Web Page To IIS 
 
-Go back to your VM, and press the start button and look for the server manager.  
+Go back to your VM and open windows explorer. 
 
-Once in the server manager search for Tools -> Internet Information Services (IIS) Manager 
+Navigate to: This PC -> C: -> inetpub -> wwwroot
 
-In the window that opens, select "Default Website" and then "Advanced Settings" 
+wwwroot is the folder that will hold all of the files that will be displayed on your website. 
 
-You should now be able to see a panel on the right hand side of the screen that gives you access to various aspects of the default website -but at this stage, we are only interested in "Physical Path" 
-
-Note the location of this physical path. And open Windows explorer, you should be able to navigate to this location by placing it in the bar at the top of the screen. (it should be named wwwroot, and exist on the C Drive.) 
+Before you do anything, at the top of the explorer window press view and ensure that "file name exentions" is ticked. 
 
 Highlight everything in the wwwroot folder, and move it to your VMs desktop (right click and press cut, then go back to your desktop right click and press paste.) This will help you revert to defaults if you run into any issues. 
 
 Open a notepad document and write the word "hello".  
 
-Save your document in your wwwroot folder and make sure you call it "default.html" this tells IIS what you want your default loaded webpage to be. 
+Save your document in your wwwroot folder and make sure you call it "index.htm" (index.html should also work, but can have issues) this tells IIS what you want your default loaded webpage to be. 
 
 <html lang="en">
 <head>
